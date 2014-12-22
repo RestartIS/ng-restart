@@ -18,9 +18,25 @@
         }
     }
 
+    function Restart() {
+
+        this.$get = function() {
+            return {
+                getBinary: function(name) {
+                    var binary = "";
+                    for (var i=0; i < name.length; i++) {
+                        binary += name[i].charCodeAt(0).toString(2) + " ";
+                    }
+                    return binary;
+                }
+            }
+
+        }
+    }
 
 
     angular.module("ngRestart", [])
+    .provider({ $restart : Restart })
     .directive({ ngSkill : skill });
 
 })();

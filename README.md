@@ -43,6 +43,37 @@ ng-restart
 ##### 4) Add css to your skills
 
   a. add css to the generated divs
-  
-  
+
+You can check out this live example here: http://codepen.io/anon/pen/WbGeQg
+
+
+### Create a directive that prints binary representation of your name with our service $restart
+
+##### 1) Create directive element
+
+   a. add an element directive with your name to your index.html
+
+   b. add the attribute - name to the element and attach the your name to it
+
+##### 2) Register directive to your angular app
+
+   a. the directive should except only elements
+
+   b. the directive should replace your element
+
+   c. the directive should have link function with the arguments: scope, element and attributes
+
+##### 3) Add the $restart service to your directive dependencies
+
+   a.  add to the scope a name property
+   b.  call to the method getBinary from the $restart service
+   c.  pass your attribute name to the method getBinary
+
+
+##### 4) Add css to your binary name
+
+  a. add css to the div of your name
+
+You can check out this live example here: http://codepen.io/anon/pen/yyaBVW
+
    
