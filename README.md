@@ -1,15 +1,15 @@
 ng-restart
 ==========
 
-## Download the files or install via bower
+### Download the files or install via bower
 
 ```shell
   bower install ng-restart
 ```
 
-## Choose one or more of the assignments:
+### Choose one or more of the assignments:
 
-### Create your own skill level resume
+#### Create your own skill level resume
 
 ###### 1) Create a controller
    a. add an ng-controller into your index.html
