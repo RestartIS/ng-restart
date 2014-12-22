@@ -19,7 +19,7 @@ ng-restart
 
 ## Choose one or more of the assignments:
 
-### Create your own skill level resume
+### 1) Create your own skill level resume
 
 ##### 1) Create a controller
 
@@ -47,7 +47,7 @@ ng-restart
 You can check out this live example here: http://codepen.io/anon/pen/WbGeQg
 
 
-### Create a directive that prints binary representation of your name with our service $restart
+### 2) Create a directive that prints binary representation of your name with our service $restart
 
 ##### 1) Create directive element
 
