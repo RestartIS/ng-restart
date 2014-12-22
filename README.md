@@ -22,7 +22,9 @@ ng-restart
 #### Create your own skill level resume
 
  1) Create a controller
+
    a. add an ng-controller into your index.html
+
    b. register the controller into your angular app
    
  2) Add an array of objects to the scope of the controller, each object should have this properties:
