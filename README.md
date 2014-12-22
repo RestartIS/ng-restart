@@ -23,7 +23,7 @@ ng-restart
 
 ##### 1) Create a controller
 
-   a. add an ng-controller into your index.html
+   a. add ng-controller into your index.html
 
    b. register the controller into your angular app
    
@@ -35,7 +35,7 @@ ng-restart
 
    c. color - choose a color to represent the level of your skill, for example: "#8736C9%"
 
-##### 3) Add the element ng-skill to your index.html inisde the scope of the controller you created
+##### 3) Add the element ng-skill to your index.html inside the scope of the controller you created
 
    a. add the attribute - skills to the element and attach the array of objects you created on the scope
 
