@@ -27,8 +27,7 @@ ng-restart
 
     b. register the controller into your angular app
 
-##### 2) Add an array of objects to the scope of the controller,
-         each object should have this properties:
+##### 2) Add an array of objects to the scope of the controller, each object should have this properties:
 
     a. skill - one of your skills, for example: "html"
 
@@ -52,8 +51,7 @@ ng-restart
 You can check out this live example here: http://codepen.io/anon/pen/WbGeQg
 
 
-### 2) Create a directive that prints binary representation
-       of your name with our service $restart
+### 2) Create a directive that prints binary representation of your name with our service $restart
 
 ##### 1) Create directive element
 
