@@ -39,13 +39,13 @@ ng-restart
 
 ##### 3) Add the element ng-skill to your index.html inside the scope of the controller you created
 
-   a. add the attribute - skills to the element and attach the
-      array of objects you created on the scope
+       a. add the attribute - skills to the element and attach the
+          array of objects you created on the scope
 
 
 ##### 4) Add css to your skills
 
-  a. add css to the generated divs
+      a. add css to the generated divs
 
 You can check out this live example here: http://codepen.io/anon/pen/WbGeQg
 
