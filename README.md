@@ -80,4 +80,32 @@ You can check out this live example here: http://codepen.io/anon/pen/WbGeQg
 
 You can check out this live example here: http://codepen.io/anon/pen/yyaBVW
 
+### 3) Working with $http to create chuck norris jokes list, we love you chuck!
+
+##### 1) Create a controller
+
+    a. add ng-controller into your index.html
+
+    b. register the controller into your angular app
+
+##### 2) Add $http service to your controller and call the api
+
+    a. make a GET request to the api and attach the output value to the scope
+       the url to the api documentation : http://www.icndb.com/api/
+
+
+    b. get 5 jokes from the api
+
+##### 3) Add the element ng-chuck to your index.html inside the scope of the controller you created
+
+       a. add the attribute - jokes to the element and attach the
+          array of jokes
+
+
+##### 4) Add css to your skills
+
+      a. add css to the generated divs
+
+You can check out this live example here: http://codepen.io/anon/pen/OPRWVq
+
    

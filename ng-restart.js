@@ -18,6 +18,18 @@
         }
     }
 
+    function chuck() {
+        return {
+            restrict: "E",
+            replace: "true",
+            scope: {
+                jokes : "="
+            },
+            template: "<div ng-repeat='value in jokes'>{{value.joke}}</div>"
+        }
+    }
+
+
     function Restart() {
 
         this.$get = function() {
@@ -30,13 +42,11 @@
                     return binary;
                 }
             }
-
         }
     }
 
-
-    angular.module("ngRestart", [])
+     angular.module("ngRestart", [])
     .provider({ $restart : Restart })
-    .directive({ ngSkill : skill });
+    .directive({ ngSkill : skill, ngChuck : chuck });
 
 })();
