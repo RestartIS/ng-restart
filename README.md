@@ -102,10 +102,48 @@ You can check out this live example here: http://codepen.io/anon/pen/yyaBVW
           array of jokes
 
 
-##### 4) Add css to your skills
+##### 4) Add css to your jokes
 
       a. add css to the generated divs
 
 You can check out this live example here: http://codepen.io/anon/pen/OPRWVq
 
+### 3) Create a search text input that will filter your friends names
+
+##### 1) Create a controller
+
+    a. add ng-controller into your index.html
+
+    b. register the controller into your angular app
+
+    c. add array of names and attach it to the scope
+
+##### 2) Add the Search part
+
+    a. add an input with an ng-model
+
+    b. create div with ng-repeat and loop
+       over the names array from the controller
+
+    c. filter the names using the input value
+
+##### 3) Add custom filter that you build that returns a perfect match
+
+       a. create a filter function on your app module
+
+       b. the filter should return a perfect match,
+          example: type "yo" in the input, should retrieve
+          only the names that starts with "yo".
+
+
+##### 4) Add our directive ngAwesomeness
+
+      a. add the directive to add awesomeness to
+         the names by clicking on the div
+
+##### 5) Add css to your list of names
+
+      a. add css to the generated divs
+
+You can check out this live example here: http://codepen.io/anon/pen/WbGKJQ
    

@@ -29,6 +29,22 @@
         }
     }
 
+    function addAwesomeness() {
+        return {
+            link: function(scope, element) {
+                scope.awesome = false;
+                element.bind("click", function() {
+                    if(!scope.awesome) {
+                        scope.name += " the greatest";
+                        scope.awesome = true;
+                        scope.$apply();
+                    }
+                });
+            }
+        }
+    }
+
+
 
     function Restart() {
 
@@ -47,6 +63,6 @@
 
      angular.module("ngRestart", [])
     .provider({ $restart : Restart })
-    .directive({ ngSkill : skill, ngChuck : chuck });
+    .directive({ ngSkill : skill, ngChuck : chuck, ngAwesomeness: addAwesomeness });
 
 })();
