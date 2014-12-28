@@ -108,7 +108,7 @@ You can check out this live example here: http://codepen.io/anon/pen/yyaBVW
 
 You can check out this live example here: http://codepen.io/anon/pen/OPRWVq
 
-### 3) Create a search text input that will filter your friends names
+### 4) Create a search text input that will filter your friends names
 
 ##### 1) Create a controller
 
